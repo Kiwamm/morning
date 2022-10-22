@@ -79,7 +79,8 @@ client = WeChatClient(app_id, app_secret)
 
 wm = WeChatMessage(client)
 highTem,minTem,windDir,curWeather,shushiRec,dressRec=get_weather()
-recommend=shushiRec+" "+dressRec
+recommend1=shushiRec+" "+dressRec
+recommend="嘻嘻，迟来的问候，晚风瑟瑟，记得添衣保暖。"
 print(highTem,  minTem,  windDir,   curWeather,  shushiRec,  dressRec)
 everydaySoup=get_iciba_everyday_chicken_soup()
 data = {
